@@ -9,28 +9,51 @@ About the Dataset
 The dataset used for this project, titled Data-1.csv, comprises 250,000 rows and 24 attributes, capturing various aspects of warehouse operations and environmental factors. The data is structured as follows:
 
 Ware_house_ID: Unique identifier for each warehouse.
+
 WH_Manager_ID: Unique identifier for each warehouse manager.
+
 Location_type: Categorical variable indicating the type of location (urban, rural, etc.).
+
 WH_capacity_size: Numerical value representing the storage capacity of the warehouse.
+
 zone: Categorical variable indicating the zone in which the warehouse is located.
+
 WH_regional_zone: Categorical variable indicating the regional zone of the warehouse.
+
 num_refill_req_l3m: Number of refill requests in the last 3 months.
+
 transport_issue_l1y: Number of transport issues in the last year.
+
 Competitor_in_mkt: Indicator if there is a competitor in the market.
+
 retail_shop_num: Number of retail shops associated with the warehouse.
+
 wh_owner_type: Categorical variable indicating the ownership type of the warehouse.
+
 distributor_num: Number of distributors associated with the warehouse.
+
 flood_impacted: Indicator if the warehouse has been impacted by floods.
+
 flood_proof: Indicator if the warehouse is flood-proof.
+
 electric_supply: Indicator of the stability of electric supply.
+
 dist_from_hub: Distance of the warehouse from the central hub.
+
 workers_num: Number of workers in the warehouse.
+
 wh_est_year: Year the warehouse was established.
+
 storage_issue_reported_l3m: Number of storage issues reported in the last 3 months.
+
 temp_reg_mach: Indicator if the warehouse has temperature regulation machinery.
+
 approved_wh_govt_certificate: Indicator if the warehouse has government certification.
+
 wh_breakdown_l3m: Number of warehouse breakdowns in the last 3 months.
+
 govt_check_l3m: Number of government checks in the last 3 months.
+
 product_wg_ton: Target variable representing the weight of the product (in tons) to be delivered to the warehouse.
 
 Approach
